@@ -1,0 +1,10 @@
+# TaskRunner 的 Python 依赖。
+# 唯一外部运行时依赖：MaaFramework 的 Python 绑定 maafw。
+# 它自带全部运行时 DLL（MaaFramework/MaaToolkit/MaaWin32ControlUnit/onnxruntime/opencv/fastdeploy_ppocr/DirectML），
+# 装在 Python 的 site-packages/maa/bin 里，不需要桌面那个 MAAFramework 文件夹。
+#
+# 安装（国内 PyPI 易超时，用清华镜像）：
+#   pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+#
+# OCR 模型（det.onnx/rec.onnx/keys.txt）已放在 resource/model/ocr/ 内，不依赖此包。
+maafw==5.11.1

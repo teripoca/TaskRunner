@@ -1,0 +1,26 @@
+# 运行时日志/缓存（MaaFramework 与各游戏助手产生）
+.maafw/
+debug/
+cache/
+*.log
+
+# 探针截图（含真实窗口标题，隐私）
+assets/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 本地运行配置/历史（每台机器不同，不随仓库分发）
+app/script_task_runner_gui.json
+app/script_task_runner_history.json
+
+# 开发辅助脚本（不随分发）
+tasks/_common/_run_march7th_elevated.py
+tasks/_common/_uncurl.py
+
+# 系统/编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
