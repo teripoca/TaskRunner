@@ -24,3 +24,6 @@ tasks/_common/_uncurl.py
 Thumbs.db
 .idea/
 .vscode/
+
+# 本地任务路径配置（含真实路径，绝对不能提交）
+config/task_settings.json
